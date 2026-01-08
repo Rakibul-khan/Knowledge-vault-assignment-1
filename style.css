@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 .btn {
@@ -140,9 +141,7 @@ nav {
   align-items: center;
   gap: 40px;
 }
-.solution-left {
-  /* height: 300px; */
-}
+
 .solution-right h6 {
   color: #30b868;
   font-weight: 500;
@@ -166,4 +165,37 @@ nav {
 }
 .solution-right div {
   margin-top: 30px;
+}
+
+.ready-to-think-section {
+  background-color: #f7f6f2;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.ready-to-think-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ready-to-think-section div h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.ready-to-think-section div p {
+  /* border: 2px solid red; */
+  width: 596px;
+  text-align: center;
+  line-height: 24px;
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.ready-to-think-section button {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
