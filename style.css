@@ -12,6 +12,19 @@
   outline: none;
   border-radius: 7px;
 }
+.btn-outline {
+  padding: 15px 30px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.text-center {
+  text-align: center;
+}
 
 .container {
   max-width: 1200px;
@@ -34,4 +47,51 @@ nav {
 #nav-center li a {
   text-decoration: none;
   color: black;
+}
+
+#banner-section {
+  background-image: url("/assets/hero-bg.png");
+  height: 674px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.banner-container h4 {
+  color: #469165;
+  padding: 9px 20px;
+  border-radius: 100px;
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+.banner-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.btn-start {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.banner-container h1 {
+  font-size: 60px;
+}
+.banner-container h2 {
+  font-size: 65px;
+  color: #30b868;
+}
+.banner-container p {
+  width: 700px;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
