@@ -61,7 +61,7 @@ nav {
 }
 
 #banner-section {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   height: 674px;
   background-repeat: no-repeat;
   background-size: cover;
