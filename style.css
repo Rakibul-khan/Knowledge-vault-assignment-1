@@ -135,3 +135,35 @@ nav {
   line-height: 20px;
   color: #627382;
 }
+#solution-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.solution-left {
+  /* height: 300px; */
+}
+.solution-right h6 {
+  color: #30b868;
+  font-weight: 500;
+}
+.solution-right h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 20px;
+}
+.solution-right p {
+  line-height: 20px;
+  color: #627382;
+}
+.solution-right li {
+  list-style-type: none;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.solution-right div {
+  margin-top: 30px;
+}
