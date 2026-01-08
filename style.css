@@ -172,6 +172,7 @@ nav {
   padding: 40px;
   border-radius: 10px;
   margin-top: 200px;
+  margin-bottom: 80px;
 }
 .ready-to-think-section div {
   display: flex;
@@ -198,4 +199,30 @@ nav {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+footer {
+  /* margin-bottom: 200px; */
+  background-color: #001931;
+  color: white;
+}
+.footer-right p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  border-bottom: 1px solid gray;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.copyright {
+  text-align: center;
+  padding: 18px 0;
 }
